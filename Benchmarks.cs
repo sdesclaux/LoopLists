@@ -7,7 +7,7 @@ namespace LoopLists
     public class Benchmarks
     {
         private readonly List<string> _list = [];
-        private readonly int _size = 10_000_000;
+        private readonly int _size = 1_000_000;
 
         [GlobalSetup]
         public void Setup()
